@@ -54,7 +54,6 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-		try:
 	
 		except requests.exceptions.ConnectionError:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
